@@ -1,12 +1,11 @@
 class Employees {
     #salary;
     #isHired;
-    constructor(name, position, salary, isHired) {
+    constructor(name, position, salary) {
         this.name = name;
         this.position = position;
         this.#salary = salary;
         this.#isHired = true;
-
     }
 
     getSalary() {
